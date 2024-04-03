@@ -1,0 +1,15 @@
+{
+  "name": "trillo",
+  "version": "1.0.0",
+  "description": "project with flexbox",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass src/scss/main.scss src/css/style.css -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Omar Medina",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
